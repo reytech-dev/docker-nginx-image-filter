@@ -20,6 +20,14 @@ Set image permissions:
 $ cd project/directory/ && chown -R 100:100 nginx/images
 ```
 
+Add new hosts entry:
+
+Entry: 127.0.0.1 image-proxy.local
+
+```sh
+$ sudo nano /etc/hosts
+```
+
 Start containers:
 
 ```sh
